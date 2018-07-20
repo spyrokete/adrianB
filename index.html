@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Adrian Bandolon-CS498 Data Visualization Project</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script src="easings.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Oxigen|Open+Sans" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                //options here
+                sectionsColor: ['#000000', '#4bbfc3', '#7baabe', 'whitesmoke'],
+                navigation: true,
+                navigation: 'right',
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section fp-section fp-table active fp-completely" style="width: 100%; height: 710px; padding-left: 3%; padding-right: 1.5%;" data-anchor="Intro">
+            <div class="fp-tableCell" style="height: 710px;">
+                <div style="float: left; width: 47%;">
+                    <div style="font-size: 95px; font-weight: bold; color:#f0f0f0;">Global Poverty<br></div>
+                    <p style="font-size: 33.5px; -webkit-margin-before: 0.2em; -webkit-margin-after: 0.1em; color:#969696;">A Data Visualization Project</p>
+                    <p style="font-size: 20px; -webkit-margin-before: 0.2em; -webkit-margin-after: 0.1em; color:#969696;">By: <b>Adrian Bandolon</b></p><br><br />
+                    <div class="bodyText">
+                        <div style="font-size: 16px; font-weight: bold; color:#f0f0f0;">
+                            <font color="ff3333" size="+4">Poverty </font> is the state of one who lacks a usual or socially acceptable amount of money or material possesions. The <font color="#0092cc">World Bank</font> is the main source of information on poverty. It sets the <font color="#0092cc">International Poverty Line</font>. A person is considered to be in poverty if they live on less than <font color="ff3333">1.90 international dollars per day</font>. The <font color="#0092cc">International Dollar</font> is a unit of currency used by economists to compare values of different currencies. It is important to point out that living conditions well above the International Poverty Line can still be characterized as poor and difficult.
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">Section 2</div>
+        <div class="section">
+            <div class="slide">slide 1</div>
+            <div class="slide">slide 2</div>
+            <div class="slide">slide 3</div>
+        </div>
+        <div class="section">Section 3</div>
+        <div class="section">Section 4</div>
+    </div>
+
+</body>
+</html>
